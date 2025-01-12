@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rest game</title>
+    </head>
+    <body class="body" style="background-color: #222">
+        <div
+            style="
+                display: flex;
+                flex-direction: column;
+                padding: 50px;
+                background-color: white;
+            "
+        >
+            <p>Hãy nhập giá trị tối đa</p>
+            <input type="number" class="score" max="100" min="0" />
+            <input
+                type="text"
+                style="margin-top: 20px"
+                class="guess"
+                placeholder="guess"
+            />
+            <div
+                style="
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;
+                "
+            >
+                <button class="again">Try again</button>
+                <button class="start">Start</button>
+            </div>
+            <p class="message">Start guessing...</p>
+            <p class="number"></p>
+        </div>
+    </body>
+
+    <script src="./javaScriptInTheBrowserDOMAndEvents.js"></script>
+</html>
